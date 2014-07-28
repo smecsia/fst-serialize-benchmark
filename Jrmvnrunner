@@ -1,0 +1,13 @@
+project 'ru.yandex.qatools:hazelcast-test:0.1-SNAPSHOT'
+
+Pomfile do
+    source 'http://maven.yandex.net/nexus/content/repositories/yandex_qa_releases'
+    source 'http://maven.yandex.net/nexus/content/repositories/yandex_qa_snapshots'
+    jar 'de.ruedigermoeller:fst:1.58:jar'
+end
+
+Gemfile do
+    source :rubygems
+
+    gem "uuid"
+end

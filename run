@@ -1,0 +1,5 @@
+#!/usr/bin/env jruby
+require 'bm'
+
+BM.new.start!((ARGV[0] || 1000).to_i, (ARGV[1] || 10000).to_i)
+exit
